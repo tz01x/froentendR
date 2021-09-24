@@ -4,17 +4,17 @@ import React from "react";
 import { useEffect, useState } from "react";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import SimpleSelect from "../components/SimpleSelect";
-import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
 import { Fade } from "@material-ui/core/";
 import ToggleButton from "@material-ui/lab/ToggleButton";
 import ToggleButtonGroup from "@material-ui/lab/ToggleButtonGroup";
 
-import RangeSlider from "../components/RangeSlider";
-import MultipleSelect from "../components/MultipleSelect.js";
-const theme = createMuiTheme({
+import SimpleSelect from "./components/SimpleSelect";
+import RangeSlider from "./components/RangeSlider";
+import MultipleSelect from "./components/MultipleSelect.js";
+const theme = createTheme({
   palette: {
     primary: {
       main: "#ea4e2f"
